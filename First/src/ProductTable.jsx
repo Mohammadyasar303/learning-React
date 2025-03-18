@@ -46,7 +46,11 @@ function ProductTable(){
 
                 </thead>
             </table>
-            
+            </>
+    )
+}
+
+export default ProductTable;    
             {/* <table>
                 <thead>
                     <tr>
@@ -114,8 +118,4 @@ function ProductTable(){
             </table> */}
 
             
-        </>
-    )
-}
-
-export default ProductTable;
+        

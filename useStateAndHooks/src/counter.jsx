@@ -2,15 +2,20 @@ import { useState } from "react";
 
 function Counter(){
 
-const [counter, increase] = useState(0);
+const [counter, increase] = useState({name:"yasar", age:21, city:"vadodara"});
 
     function increasecounter(){
-        increase(counter+1);
+        counter.name="Mahaan";
+        counter.city="Surat"
+
+        console.log(counter);
+        increase((prev)=>({...prev}))
     }
 
     return(
         <>
-            <button type="button"onClick={increasecounter}>Counter is : {counter}</button>
+            <p></p>
+            <button onClick={increasecounter}>Counter :{counter.name} {counter.age} {counter.city}</button>
         </>
         
     )

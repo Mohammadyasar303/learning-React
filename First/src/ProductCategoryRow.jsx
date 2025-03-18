@@ -1,13 +1,13 @@
+import ProductTable from "./ProductTable";
+import SearchBar from "./SearchBar";
 
-
-function ProductCategoryRow({category}){
+function FilterableProductTable(){
     return(
         <>
-            <tr>
-                <td colSpan={2}>{category}</td>
-            </tr>
+            <SearchBar/>
+            <ProductTable/>
         </>
     )
 }
 
-export default ProductCategoryRow;
+export default FilterableProductTable;

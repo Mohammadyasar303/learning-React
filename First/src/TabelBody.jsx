@@ -14,4 +14,4 @@ function TabelBody(props ){
     )
 }
  
-export default TabelBody;
+// export default TabelBody;
