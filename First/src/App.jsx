@@ -1,11 +1,10 @@
-import TabelBody from "./TabelBody";
-import "./App.css"
+import FilterableProductTable from "./FilterableProductTable";
 
 function App() {
 
   return (
     <>
-      <TabelBody/>
+      <FilterableProductTable/>
     </>
   )
 }
