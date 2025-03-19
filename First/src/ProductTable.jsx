@@ -46,7 +46,7 @@ function ProductTable(){
 
                 </thead>
             </table>
-            </>
+        </>
     )
 }
 
