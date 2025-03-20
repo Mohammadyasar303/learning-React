@@ -1,0 +1,15 @@
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+padding: '15px 30px',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontSize: '16px',
+    color: 'white',
+    textTransform: 'uppercase',
+    margin: '0 10px'
