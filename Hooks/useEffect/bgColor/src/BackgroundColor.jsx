@@ -8,7 +8,7 @@ function BackgroundColor() {
     document.body.style.backgroundColor = color;
   }, [color]);
 
-  const buttonStyle = {className:"d"};
+  const buttonStyle = {className:"", padding: '10px 20px', margin: '10px', border: 'none', borderRadius: '15px'};
 
   return (
     <div className='buttons'>
