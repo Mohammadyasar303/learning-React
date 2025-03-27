@@ -4,3 +4,12 @@
     align-items: center;
     height: 100vh;
 }
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
