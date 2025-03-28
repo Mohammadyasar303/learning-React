@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Api from "./Api"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
   
   return (
     <>
+      <Api/>
       <ul>
       
       {
