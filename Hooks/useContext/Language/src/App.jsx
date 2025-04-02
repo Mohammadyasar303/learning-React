@@ -1,36 +1,23 @@
-import { Children, useState } from 'react'
+import Factorial from '../../../useMemo/src/Factorial';
+import { Children, useState, useMemo } from 'react'
 import Language from './Language'
 // import './App.css'
 
 function App() {
-  
+  // const n = 5;
+  const [count, setCount] = useState(0);
+  // const [n, setN] = useState(5);
 
   return (
     <>
       {/* <Language /> */}
-      <Factorial value={n}/>
+
+      
+
+      
     </>
   )
 }
-
-function Factorial(){
-  const factorial = (n) => {
-    if(n==1) return 1;
-    return n * factorial(n-1);
-  }
-
-  useMemo(()=>{
-    factorial(n);
-  },[n])
-  
-  return(
-    <div>
-      Calculated factorial is {factorial}
-    </div>
-  )
-}
-
-
 
 export default App
 

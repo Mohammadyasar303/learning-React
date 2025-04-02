@@ -5,7 +5,7 @@ const changeLng = createContext();
 
 function Language(){
 
-    const [lang, setLang] = useState('Default');
+    const [n, setN] = useState(5);
 
     return(
         <>
