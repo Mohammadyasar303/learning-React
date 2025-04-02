@@ -9,10 +9,10 @@ function Language(){
 
     return(
         <>
-            <changeLng.Provider value={lang, setLang}>
+            {/* <changeLng.Provider value={lang, setLang}>
                 <DropDown/>
-                <Messahe/>
-            </changeLng.Provider> 
+                <Message/>
+            </changeLng.Provider>  */}
         </> 
     )
 }
