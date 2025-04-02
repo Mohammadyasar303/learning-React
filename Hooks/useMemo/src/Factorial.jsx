@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 
 function Factorial({n}) {
-    const [n, setN] = useState(5);
+    // const [n, setN] = useState(5);
 
   const factorial = (n) => {
     if(n==1) return 1;
