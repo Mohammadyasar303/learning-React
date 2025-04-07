@@ -1,0 +1,16 @@
+.postofiicebox{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    width: 683px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.postoffice{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}

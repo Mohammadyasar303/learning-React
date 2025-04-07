@@ -12,7 +12,7 @@ function App() {
           {/* <button onClick={() => setN(n-1)}>Decrease Value</button><br /> */}
           <input type="number" value={n} onChange={(e) => setN(+e.target.value)}/>
         </div><hr />
-        <Factorial n={n}/><hr />
+        <Factorial n={n}/><hr/>
         <Fibonacci n={n}/>
     </>
   )
