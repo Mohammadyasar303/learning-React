@@ -16,6 +16,6 @@ function App() {
         <Fibonacci n={n}/>
     </>
   )
-}
+} 
 
 export default App
