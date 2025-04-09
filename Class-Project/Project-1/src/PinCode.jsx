@@ -7,6 +7,7 @@ function PinCode(){
     const [postOffices, setPostOffices] = useState([]);
     const [filterText, setFilterText] = useState("");
     const [isSubmitted, setIsSubmitted] = useState(false);
+    
     const fetchPostOffices = async () => {
         try {
             const response = await fetch(`https://api.postalpincode.in/pincode/${pincode}`);
@@ -16,7 +17,7 @@ function PinCode(){
                 setIsSubmitted(true);
             }
         } catch (error) {
-            console.error("Error fetching post offices:", error);
+            console.error("Not fetching post offices:", error);
         }
     }
 

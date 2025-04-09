@@ -1,14 +1,16 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import PinCode from './PinCode'
-import './App.css'
+// import PinCode from './PinCode'
+import Mt from './mt'
+// import './App.css'
 
 function App() {
 
   return (
     <>
-      <PinCode/>
+      <Mt/>
+      {/* <PinCode/> */}
     </>
   )
 }
